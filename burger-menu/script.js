@@ -16,7 +16,7 @@ const toggleMenu = () => {
             burger[i].classList.add('width')
             burger[i].classList.add('close');
         }
-        setTimeout(rotate, 100);
+        setTimeout(rotate, 0);
         showMenu = true;
     }
     else{
@@ -29,7 +29,7 @@ const toggleMenu = () => {
                 burger[i].classList.remove('close', 'transparent', 'width');
             }
         }
-        setTimeout(rotate, 600);
+        setTimeout(rotate, 200);
 
         showMenu = false;
     }
